@@ -1,0 +1,3 @@
+--Carlos--
+#!/bin/bash
+df -h | awk '{if ($5 >= 36 && $5 <= 50) print $6}' >> sol.txt
