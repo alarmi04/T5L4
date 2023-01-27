@@ -2,3 +2,6 @@
 #!/bin/bash
 df -h | awk '{if ($5 >= 10 && $5 <= 35) print $6}' >> sol.txt
 
+--Carlos--
+#!/bin/bash
+df -h | awk '{if ($5 >= 36 && $5 <= 50) print $6}' >> sol.txt
