@@ -1,0 +1,4 @@
+--Alberto--
+
+#!/bin/bash
+cat disc.txt | df -h | awk '{if ($5 >= 0 && $5 <= 9) print $6}' >> sol.txt
