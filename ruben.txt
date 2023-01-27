@@ -1,2 +1,7 @@
 #!/bin/bash
+<<<<<<<<< Temporary merge branch 1
 df -h | awk '{if ($5 >= 10 && $5 <= 35) print $6}' >> sol.txt
+=========
+df -h | awk '{if ($5 >= 10 && $5 <= 35) print $6}' >> sol.txt
+
+>>>>>>>>> Temporary merge branch 2
